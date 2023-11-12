@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rlB8f+J1C7/q2+SpPlgrnruotjkz74rDHq3Vdoh8mKNLj65UMUXc5oNqfTHTGDG9KDg9nI4JTQv0LiV1UWVLrg==",
+  "success": true,
+  "projectFilePath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/leandroartilha/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/leandroartilha/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

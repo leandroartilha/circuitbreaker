@@ -1,0 +1,12 @@
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/bin/Debug/net7.0/Domain.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/Domain.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/Debug/net7.0/ref/Domain.dll

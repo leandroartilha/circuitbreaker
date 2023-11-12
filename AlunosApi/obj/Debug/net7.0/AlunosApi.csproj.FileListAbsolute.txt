@@ -1,0 +1,5 @@
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/AlunosApi/obj/Debug/net7.0/AlunosApi.csproj.AssemblyReference.cache
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/AlunosApi/obj/Debug/net7.0/AlunosApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/AlunosApi/obj/Debug/net7.0/AlunosApi.AssemblyInfoInputs.cache
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/AlunosApi/obj/Debug/net7.0/AlunosApi.AssemblyInfo.cs
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/AlunosApi/obj/Debug/net7.0/AlunosApi.csproj.CoreCompileInputs.cache

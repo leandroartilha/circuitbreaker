@@ -1,0 +1,15 @@
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/Application.AssemblyInfoInputs.cache
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/Application.AssemblyInfo.cs
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/Application.csproj.CoreCompileInputs.cache
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/bin/Debug/net7.0/Application.deps.json
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/bin/Debug/net7.0/Application.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/bin/Debug/net7.0/Application.pdb
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/bin/Debug/net7.0/Domain.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/bin/Debug/net7.0/Domain.pdb
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/Application.csproj.CopyComplete
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/Application.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/refint/Application.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/Application.pdb
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/Debug/net7.0/ref/Application.dll

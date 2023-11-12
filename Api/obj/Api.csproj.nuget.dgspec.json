@@ -1,0 +1,387 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/Api.csproj": {}
+  },
+  "projects": {
+    "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/Api.csproj",
+        "projectName": "Api",
+        "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/Api.csproj",
+        "packagesPath": "/Users/leandroartilha/.nuget/packages/",
+        "outputPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leandroartilha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.310/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Infra.Data.csproj": {
+                "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Infra.Data.csproj"
+              },
+              "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Ioc/Infra.Ioc.csproj": {
+                "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Ioc/Infra.Ioc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Application.csproj",
+        "packagesPath": "/Users/leandroartilha/.nuget/packages/",
+        "outputPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leandroartilha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/Domain.csproj": {
+                "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/Domain.csproj",
+        "packagesPath": "/Users/leandroartilha/.nuget/packages/",
+        "outputPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leandroartilha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Infra.Data.csproj",
+        "projectName": "Infra.Data",
+        "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Infra.Data.csproj",
+        "packagesPath": "/Users/leandroartilha/.nuget/packages/",
+        "outputPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leandroartilha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/Domain.csproj": {
+                "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Ioc/Infra.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Ioc/Infra.Ioc.csproj",
+        "projectName": "Infra.Ioc",
+        "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Ioc/Infra.Ioc.csproj",
+        "packagesPath": "/Users/leandroartilha/.nuget/packages/",
+        "outputPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Ioc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leandroartilha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Application.csproj": {
+                "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Application.csproj"
+              },
+              "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Infra.Data.csproj": {
+                "projectPath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

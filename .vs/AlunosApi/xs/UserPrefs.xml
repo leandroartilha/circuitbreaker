@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{21BAAE0D-271E-458E-A2D7-37B43E23A0A1}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Program.cs">
+    <Files>
+      <File FileName="Api/Controllers/AlunosController.cs" />
+      <File FileName="Domain/Entities/Aluno.cs" />
+      <File FileName="Application/Services/AlunoService.cs" />
+      <File FileName="Infra.Data/Repositories/AlunoRepository.cs" />
+      <File FileName="Application/DTOs/AlunoDTO.cs" />
+      <File FileName="Api/Program.cs" Line="35" Column="1" />
+      <File FileName="Application/Interfaces/IAlunoService.cs" />
+      <File FileName="Infra.Ioc/DependencyInjectionApi.cs" />
+      <File FileName="Infra.Data/Context/ApplicationDbContext.cs" />
+      <File FileName="Api/appsettings.json" />
+      <File FileName="Api/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlunosApi" expanded="True">
+            <Node name="Api">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{21BAAE0D-271E-458E-A2D7-37B43E23A0A1}" ItemName="Api" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/Controllers/AlunosController.cs" relfile="Api/Controllers/AlunosController.cs" line="24" column="1" />
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/Controllers/TokenController.cs" relfile="Api/Controllers/TokenController.cs" line="53" column="1" />
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Identity/AuthenticateService.cs" relfile="Infra.Data/Identity/AuthenticateService.cs" line="33" column="1" />
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/Controllers/AlunosController.cs" relfile="Api/Controllers/AlunosController.cs" line="37" column="1" />
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Services/AlunoService.cs" relfile="Application/Services/AlunoService.cs" line="26" column="1" />
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Repositories/AlunoRepository.cs" relfile="Infra.Data/Repositories/AlunoRepository.cs" line="18" column="1" />
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Services/AlunoService.cs" relfile="Application/Services/AlunoService.cs" line="45" column="1" />
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Data/Repositories/AlunoRepository.cs" relfile="Infra.Data/Repositories/AlunoRepository.cs" line="35" column="1" />
+      <Breakpoint file="/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Services/AlunoService.cs" relfile="Application/Services/AlunoService.cs" line="46" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
