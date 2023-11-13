@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "rlB8f+J1C7/q2+SpPlgrnruotjkz74rDHq3Vdoh8mKNLj65UMUXc5oNqfTHTGDG9KDg9nI4JTQv0LiV1UWVLrg==",
+  "dgSpecHash": "n3icRL4qdLAAO4SvKKS1IxO7Dy9wCx3BXIKCFrrq8G0AQcYwpyYaXyXneQqMWUN73L1LWaX99j9c1huK9frCBw==",
   "success": true,
   "projectFilePath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/leandroartilha/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
-    "/Users/leandroartilha/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512"
+    "/Users/leandroartilha/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/leandroartilha/.nuget/packages/polly/8.1.0/polly.8.1.0.nupkg.sha512",
+    "/Users/leandroartilha/.nuget/packages/polly.core/8.1.0/polly.core.8.1.0.nupkg.sha512",
+    "/Users/leandroartilha/.nuget/packages/polly.extensions.http/3.0.0/polly.extensions.http.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -94,3 +94,6 @@
 /Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/bin/Debug/net7.0/MediatR.dll
 /Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/bin/Debug/net7.0/MediatR.Contracts.dll
 /Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/bin/Debug/net7.0/Polly.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/bin/Debug/net7.0/Polly.Core.dll
+/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Api/bin/Debug/net7.0/Polly.Extensions.Http.dll

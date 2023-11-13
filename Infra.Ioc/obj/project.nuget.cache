@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U+U0Gv1H0wEBW/Oz74pMs9c3j6puh+AKflXDjSZLrhuL1qqgiV49KCNWpqU359k+5nsQHvXH4CYjt8c+x3C0/w==",
+  "dgSpecHash": "cSvpMpIg358imY56ZXJiJhqkwjZRrIsfs1lgSN3QiCEpuR+lFU7TznBZ9kN/B97rU6PPMlJEcOvd97P53t9riA==",
   "success": true,
   "projectFilePath": "/Users/leandroartilha/Documents/Sistemas/SistemaAcademia/AlunosApi/Infra.Ioc/Infra.Ioc.csproj",
   "expectedPackageFiles": [
@@ -73,6 +73,9 @@
     "/Users/leandroartilha/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
     "/Users/leandroartilha/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/leandroartilha/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/leandroartilha/.nuget/packages/polly/8.1.0/polly.8.1.0.nupkg.sha512",
+    "/Users/leandroartilha/.nuget/packages/polly.core/8.1.0/polly.core.8.1.0.nupkg.sha512",
+    "/Users/leandroartilha/.nuget/packages/polly.extensions.http/3.0.0/polly.extensions.http.3.0.0.nupkg.sha512",
     "/Users/leandroartilha/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/leandroartilha/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/Users/leandroartilha/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

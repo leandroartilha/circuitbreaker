@@ -31,6 +31,8 @@ namespace Api.Resilience
             var previousBackgroundColor = Console.BackgroundColor;
             var previousForegroundColor = Console.ForegroundColor;
 
+            Console.WriteLine("\nTentativa");
+
             Console.BackgroundColor = backgroundColor;
             Console.ForegroundColor = ConsoleColor.Black;
 

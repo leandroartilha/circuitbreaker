@@ -9,7 +9,9 @@
       "Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Polly": "8.1.0",
+          "Polly.Extensions.Http": "3.0.0"
         },
         "runtime": {
           "Application.dll": {}
@@ -27,6 +29,30 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
+      "Polly/8.1.0": {
+        "dependencies": {
+          "Polly.Core": "8.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Polly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.0.2599"
+          }
+        }
+      },
+      "Polly.Core/8.1.0": {
+        "runtime": {
+          "lib/net6.0/Polly.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.0.2599"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "dependencies": {
+          "Polly": "8.1.0"
+        }
+      },
       "Domain/1.0.0": {
         "runtime": {
           "Domain.dll": {}
@@ -53,6 +79,27 @@
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Polly/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EeCJCjxX/Czm6sjnEWbeCBfogYHLcPNEL6yJT5nZzT0U78sizhTYhY2l5aXxTD+DWeVRLZtkUHqWp7ij+tvYCQ==",
+      "path": "polly/8.1.0",
+      "hashPath": "polly.8.1.0.nupkg.sha512"
+    },
+    "Polly.Core/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M9Mlim+I9QNP/Hu6SuWMTUFnjQPvYViGk1IAJyvdl85zNedmos8Yzx74/xPa+TEi3uof3H1xQLwAzWebhEvEYw==",
+      "path": "polly.core/8.1.0",
+      "hashPath": "polly.core.8.1.0.nupkg.sha512"
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "path": "polly.extensions.http/3.0.0",
+      "hashPath": "polly.extensions.http.3.0.0.nupkg.sha512"
     },
     "Domain/1.0.0": {
       "type": "project",

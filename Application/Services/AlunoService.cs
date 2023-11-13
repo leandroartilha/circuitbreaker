@@ -4,6 +4,9 @@ using Application.Interfaces;
 using AutoMapper;
 using Domain.Entities;
 using Domain.Interfaces;
+using Polly.CircuitBreaker;
+using Application.Services;
+using System.Net.Http;
 
 namespace Application.Services
 {
@@ -14,16 +17,22 @@ namespace Application.Services
         {
         }
         private IAlunoRepository _alunoRepository;
+        private object httpClient;
+        private object urlApiContagem;
         private readonly IMapper _mapper;
+        private readonly AsyncCircuitBreakerPolicy _circuitBreaker;
 
-        public AlunoService(IAlunoRepository alunoRepository, IMapper mapper)
+        public AlunoService(IAlunoRepository alunoRepository, IMapper mapper, AsyncCircuitBreakerPolicy circuitBreaker)
         {
             _alunoRepository = alunoRepository;
             _mapper = mapper;
+            _circuitBreaker = circuitBreaker;
         }
 
         public async Task  CreateAluno(AlunoDTO alunoDto)
         {
+
+
             alunoDto.Nome = $"{alunoDto.Nome} {alunoDto.Sobrenome}";
             Aluno aluno = _mapper.Map<Aluno>(alunoDto);
             await _alunoRepository.CreateAluno(aluno);
@@ -43,7 +52,20 @@ namespace Application.Services
 
         public async Task<IEnumerable<AlunoDTO>> GetAlunos()
         {
-            var alunos = await _alunoRepository.GetAlunos();            return _mapper.Map<IEnumerable<AlunoDTO>>(alunos);
+            var teste = new Rotacao();
+            teste.ExecutarCircuitB();
+
+            var resultado = await _circuitBreaker.ExecuteAsync<ResultadoContador>(() =>
+            {
+                return httpClient
+                    .GetFromJsonAsync<ResultadoContador>(urlApiContagem);
+            });
+
+
+            var alunos = await _alunoRepository.GetAlunos();
+            return _mapper.Map<IEnumerable<AlunoDTO>>(alunos);
+
+
         }
 
         public async Task UpdateAluno(AlunoDTO alunoDto)
